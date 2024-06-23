@@ -1,0 +1,50 @@
+textarea {
+  resize: none !important;
+}
+h5 a {
+  text-decoration: none;
+  color: black;
+}
+h5 a:hover {
+  color: rgb(31, 31, 230);
+}
+/* blog detail */
+.blog-detail {
+  display: flex;
+  justify-content: center;
+}
+.blog-detail-container {
+  width: 80%;
+  margin: 50px 0;
+}
+.blog-detail-container img {
+  width: 100%;
+}
+
+.blog-detail-container h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 120%;
+  margin-bottom: 10px;
+}
+
+.blog-detail-container .author {
+  font-weight: 100;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.blog-detail-container p {
+  margin-top: 30px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: justify;
+}
+
+.date-input .input-start {
+  width: 45%;
+}
+.date-input .input-end {
+  width: 45%;
+}
